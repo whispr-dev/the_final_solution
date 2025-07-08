@@ -1,0 +1,10 @@
+rsync: [client] failed to open log-file ~/vps_grab/rsync-transfer.log: No such file or directory (2)
+Ignoring "log file" setting.
+ssh: connect to host 138.197.11.134 port 3456: Connection refused
+rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+rsync error: unexplained error (code 255) at io.c(232) [Receiver=3.2.7]
+rsync: [client] failed to open log-file ~/vps_grab/rsync-transfer.log: No such file or directory (2)
+Ignoring "log file" setting.
+ssh: connect to host 138.197.11.134 port 3456: Connection refused
+rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+rsync error: unexplained error (code 255) at io.c(232) [Receiver=3.2.7]

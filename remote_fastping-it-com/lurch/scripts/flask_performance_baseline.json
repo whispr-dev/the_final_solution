@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-07-06T17:45:31.178095",
+  "base_url": "http://localhost:9876",
+  "results": {
+    "/": {
+      "endpoint": "/",
+      "avg_time": 0.003313267230987549,
+      "median_time": 0.0030400753021240234,
+      "min_time": 0.002646207809448242,
+      "max_time": 0.008148908615112305,
+      "errors": 0,
+      "success_rate": 100.0
+    },
+    "/ping": {
+      "endpoint": "/ping",
+      "avg_time": 0.002916383743286133,
+      "median_time": 0.0028377771377563477,
+      "min_time": 0.0024254322052001953,
+      "max_time": 0.0034933090209960938,
+      "errors": 0,
+      "success_rate": 100.0
+    },
+    "/health": {
+      "endpoint": "/health",
+      "avg_time": 0.00276869535446167,
+      "median_time": 0.0027713775634765625,
+      "min_time": 0.0022830963134765625,
+      "max_time": 0.0035169124603271484,
+      "errors": 0,
+      "success_rate": 100.0
+    },
+    "/test": null,
+    "concurrent": {
+      "total_time": 0.15155887603759766,
+      "requests_per_second": 329.90479546441316,
+      "avg_response_time": 0.025156426429748534,
+      "error_count": 0
+    },
+    "load_test": {
+      "duration": 15.001255750656128,
+      "total_requests": 4980,
+      "requests_per_second": 331.97220837876745,
+      "avg_response_time": 0.0030104664434869605,
+      "error_rate": 0.0
+    }
+  }
+}

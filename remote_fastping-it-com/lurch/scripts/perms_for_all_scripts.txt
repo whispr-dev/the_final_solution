@@ -1,0 +1,9 @@
+# Make ALL scripts executable in one go
+chmod +x *.sh *.py
+
+# Or individually
+chmod +x deploy.sh
+chmod +x proxy-test-app.py
+
+# Check what we've got
+ls -la *.sh *.py

@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance for FastPing Flask app
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/wofl/fastping.it.com/
+Environment="PATH=/home/wofl/fastping.it.com/venv/bin"
+ExecStart=/home/wofl/fastping.it.com/venv/bin/gunicorn --workers 3 --bind 0.0.0.0:8000 server:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
